@@ -1,0 +1,301 @@
+@media(max-width:1180px){
+    .card__item{
+        width: 300px;
+        row-gap: 10px;
+        padding: 16px 40px;
+    }
+    .card__text {
+        font-size: 17px;
+    }
+    .card__item {
+        width: 250px;
+        padding: 10px 40px;
+    }
+    .card__title{
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .card__text{
+        line-height: 22px;
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:991px){
+    .advice__card{
+        flex-wrap: wrap;
+    }
+    .card__item {
+        width: 252px;
+        padding: 10px 40px;
+        height: 190px;
+        margin-top: 66px;
+    }
+    .header__content{
+        margin-top: 50px;
+    }
+    .nav__logo,
+    .header__text,
+    .header__buttons,
+    .header__title{
+        padding-left: 50px;
+    }
+    .header__title{
+        font-size: 53px;
+        line-height: 62px;
+    }
+    .header{
+        min-height: 600px;
+    }
+}
+@media(max-width:825px){
+    .card__item {
+        width: 207px;
+        padding: 13px 25px;
+        height: 200px;
+    }
+}
+@media(max-width:768px){
+    .header__title{
+        font-size: 49px;
+    }
+    .header__text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .header__content{
+        row-gap: 25px;
+    }
+    .header {
+        min-height: 600px;
+    }
+    .picture{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .card__item {
+        width: 244px;
+    }
+    .card__content{
+        justify-content: center;
+      column-gap: 62px;  
+      transform: translateY(-25%);   
+    }
+    .ex__card{
+        flex-wrap: wrap;
+    }
+    .who__card {
+        padding-bottom: 100px;
+    }
+    
+.consulting__item {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+ .footer__first-content{
+     flex-wrap: wrap;
+ }
+ .ex__text{
+     width: 400px;
+ }
+ .ex__title{
+    font-size: 38px;
+ }
+}
+
+@media(max-width:575px){
+    .getin__item{
+        margin-bottom: 30px;
+    }
+    .ex__text{
+        width: 300px;
+    }
+    .vedio__img{
+        width: 500px;
+    }
+    .getin__card{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .card__item{
+        width: 217px;
+    }
+    .header__content {
+        margin-top: 27px;
+    }
+    .header {
+        min-height: 476px;
+    }
+    .header__title {
+        width: 390px;
+        font-size: 37px;
+        line-height: 46px;
+    }
+    .header__text {
+        width: 340px;
+        font-size: 16px;
+        line-height: 26px;
+    }.header__btn {
+        font-size: 13px;
+        padding: 5px 12px;
+    }
+    .nav{
+        column-gap: 90px;
+        margin: 18px 0;
+        padding: 20px 0;
+    }
+    .advice__title {
+        padding-top: 37px;
+    }
+.who__card {
+    padding-bottom: 65px;
+}
+}
+@media(max-width:520px) {
+    .advice__img{
+        width: 100%;
+    }
+    .nav{
+        justify-content: space-between;
+    }
+    .menu-btn{
+        display: block;
+    }
+    .nav__list{
+        position: fixed;
+        flex-direction: column;
+        align-items: flex-end;
+        top: 0;
+        right: 0;
+        backdrop-filter: blur(15px);
+        height: 100vh;
+        padding: 30px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+        transform: translateX(105%);
+        transition: 0.5s;
+    }
+    .nav__link{
+        padding: 20px 0;
+    }
+    .menu-btn:focus+.nav__list{
+        transform: translateX(0);
+    }
+    .vedio__img {
+        width: 400px;
+    }
+    .ex__card{
+        padding-top: 16px;
+    }
+}
+@media (max-width: 475px) {
+    .vedio__img {
+        width: 350px;
+    }
+    .who__content{
+        justify-content: center;
+    }
+    .who__item-title, .who__item-text {
+        width: 300px;
+}
+}
+@media (max-width:425px) {
+    .card__text {
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .card__item{
+        height: 166px;
+    }
+    .card__content{
+        transform: translateY(-15%);
+    }
+    .card__title {
+        font-size: 17px;
+        line-height: 19px;
+    }
+    .ex__title {
+        font-size: 35px;
+        line-height: 43px;
+    }.who__item{
+        margin-top: 37px;
+    }
+    .who__item-title{
+        font-size: 38px;
+        line-height: 44px;
+    }
+    .consulting__title{
+        font-size: 16px;
+        line-height: 23px;
+    }
+    .footer__title {
+        padding-bottom: 3px;
+    }.footer__name{
+        padding-top: 30px;
+    }
+    .footer__first-content{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footer__first-title{
+        font-size: 14px;
+    line-height: 16px;
+    padding-bottom: 10px;
+    }
+    .vedio__img {
+        width: 320px;
+    }
+    .header__title {
+        width: 290px;
+        font-size: 29px;
+        line-height: 38px;
+    }
+    .header__text {
+        width: 250px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .nav__logo, .header__text, .header__buttons, .header__title {
+        padding-left: 27px;
+    } 
+    .header {
+        min-height: 400px;
+    }
+}
+@media (max-width: 375px) {
+    .getin__text {
+        padding-bottom: 40px;
+    }
+    .getin__title {
+        padding-top: 52px;
+    }
+    .card__content {
+        transform: translateY(-12%);
+    }
+    .nav{
+        padding: 12px 0;
+    }
+    .header__title {
+        width: 270px;
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .header__buttons {
+        column-gap: 10px;
+    }
+    .header__btn {
+        font-size: 12px;
+        padding: 4px 7px;
+    }
+    .header__content {
+        margin-top: 9px;
+    }
+    .header {
+        min-height: 330px;
+    }
+    .header__content {
+        row-gap: 13px;
+    }
+
+}
