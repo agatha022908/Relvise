@@ -210,7 +210,7 @@
         font-size: 13px;
     }
     .card__item{
-        height: 166px;
+        height: 180px;
     }
     .card__content{
         transform: translateY(-15%);
