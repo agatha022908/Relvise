@@ -172,6 +172,7 @@
         position: fixed;
         flex-direction: column;
         align-items: flex-end;
+        z-index:1;
         top: 0;
         right: 0;
         backdrop-filter: blur(15px);
