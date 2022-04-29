@@ -84,6 +84,7 @@
       transform: translateY(-25%);   
     }
     .ex__card{
+        row-gap: 20px;
         flex-wrap: wrap;
     }
     .who__card {
